@@ -1,3 +1,5 @@
+/* General body elements */
+
 body {
     font-family: 'Eczar', 'Montserrat', 'Slabo 27px', serif;
     background-color: rgba(4, 88, 94, 0.253);
@@ -22,6 +24,76 @@ a:hover {
     color: rgb(0, 120, 0);
 }
 
+
+
+
+
+/* Unordered list selectors */
+
+ul {
+    color: red;
+}
+
+.unordered-list-container {
+    border: 2px solid black;
+}
+
+#u-list-1 {
+    color: rgba(0, 0, 255, 0.6);
+}
+
+#u-list-2 {
+    color: rgba(0, 0, 128, 0.6)
+}
+
+#u-list-3 {
+    color: rgba(0, 0, 75, 1)
+}
+
+
+
+
+
+/* Header selectors */
+
+h1 {
+    color: rgba(128, 0, 0, 0.6);
+}
+
+.header-style-1 {
+    color: rgba(0, 128, 128, 0.6);
+}
+
+.header-style-2 {
+    color: rgba(0, 0, 128, 0.6);
+}
+
+#rank1 {
+    color: rgba(255, 255, 0, 1)
+}
+
+#rank2 {
+    color: rgba(255, 255, 0, 0.8)
+}
+
+#rank3 {
+    color: rgba(255, 255, 0, 0.6)
+}
+
+#rank4 {
+    color: rgba(255, 255, 0, 0.4)
+}
+
+#rank5 {
+    color: rgba(255, 255, 0, 0.2)
+}
+
+
+
+
+
+/* Box selectors */
+
 .boxes {
     display: block;
     width: 20%;
@@ -36,7 +108,7 @@ a:hover {
 }
 
 #box2 {
-    background-color: rgba(0, 0, 0, 0.2)
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #box3 {
@@ -45,4 +117,12 @@ a:hover {
 
 #box4 {
     background-color: rgba(0, 0, 128, 0.2)
+}
+
+.image-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float:left;
+    background-color: rgba(255, 255, 255, 0.5);
 }
