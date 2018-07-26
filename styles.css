@@ -1,0 +1,48 @@
+body {
+    font-family: 'Eczar', 'Montserrat', 'Slabo 27px', serif;
+    background-color: rgba(4, 88, 94, 0.253);
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+span {
+    color: rgb(0, 120, 0);
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(0, 120, 0);
+}
+
+.boxes {
+    display: block;
+    width: 20%;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #00000025;
+    border-radius: 50px;
+}
+
+#box1 {
+    background-color: rgba(128, 0, 0, 0.2);
+}
+
+#box2 {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+#box3 {
+    background-color: rgba(128, 128, 0, 0.2)
+}
+
+#box4 {
+    background-color: rgba(0, 0, 128, 0.2)
+}
